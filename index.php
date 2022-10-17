@@ -72,6 +72,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Meta -->
+    <meta property="og:title" content='Παίρνεις πτυχίο;' />
+    <meta property="og:image" content='http://mydind.eu/MyDInd-university.png' />
+    <meta property="og:description" content='Πτυχίο Τεχνολογιών Ψηφιακής Βιομηχανίας' />
+    <meta property="og:url" content='http://mydind.eu/' />
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <meta property="og:type" content='website' />
 
     <!-- Custom styles for this template -->
     <link href="mycss.css" rel="stylesheet">
@@ -80,111 +88,111 @@
 </head>
 
 <body>
-    
-        <div class="col-lg-8 mx-auto p-3 py-md-5">
-            <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                    <!--  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg> -->
-                    <span class="fs-4">Η παρούσα εφαρμογή ισχύει <u>μόνο</u> για τους φοιτητές που έχουν εισαχθεί το
-                        ακαδημαϊκό έτος <b>2019-2020</b> και <b>2020-2021</b> </span>
-                </a>
-            </header>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <span class="fs-4">Η παρούσα εφαρμογή ισχύει <u>μόνο</u> για τους φοιτητές που έχουν εισαχθεί το
+                ακαδημαϊκό έτος <b>2019-2020</b> και <b>2020-2021</b>
+            </span>
+        </header>
 
-            <main>
-                <h1>Παίρνεις πτυχίο;</h1>
-                <p class="fs-5 col-md-8">Το μόνο που έχεις να κάνεις για να μάθεις είναι να επιλέξεις τα μαθήματα τα
-                    οποία έχεις περάσει.
-                </p>
-                <p class="fs-5 col-md-8">Δες τα συγκεντρωμένα καθώς κάποια από τα μαθήματα κατεύθυνσης έγιναν επιλογής και αρκετά δεν είναι πια υποχρεωτικά.
-                    Παρόλα αυτά εμείς θα υπολογίσουμε τα πάντα <u>βάση των μεταβατικών διατάξεων</u>.
-                </p>
+        <main>
+            <h1>Παίρνεις πτυχίο;</h1>
+            <p class="fs-5 col-md-12">Το μόνο που έχεις να κάνεις για να μάθεις είναι να επιλέξεις τα μαθήματα τα
+                οποία έχεις περάσει.
+            </p>
+            <p class="fs-5 col-md-12">Δες τα συγκεντρωμένα καθώς κάποια από τα μαθήματα κατεύθυνσης έγιναν επιλογής και
+                αρκετά δεν είναι πια υποχρεωτικά.
+                Παρόλα αυτά εμείς θα υπολογίσουμε τα πάντα <u>βάση των μεταβατικών διατάξεων</u>.
+            </p>
 
-                <!-- https://html.form.guide/php-form/php-form-checkbox/ -->
-                <div class="row justify-content-md-center">
+            <!-- https://html.form.guide/php-form/php-form-checkbox/ -->
+            <div class="row justify-content-md-center">
 
-                    <div class="col-md-6">
-                        <form action="" method="post">
-                            <h2>Υποχρεωτικά</h2>
-                            <div class="list-group d-grid gap-3">
+                <div class="col-md-6">
+                    <form action="" method="post">
+                        <h2>Υποχρεωτικά</h2>
+                        <div class="list-group d-grid gap-3">
                             <?php for ($row = 0; $row < 25; $row++) {
                                         echo "
-                                        <button type=\"button\" class=\"btn btn-outline-success\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
+                                        <button type=\"button\" class=\"btn btn-outline-success myles\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
                                             .$les[$row][0]."
                                         </button>
                                         "; 
                                 }
                             ?>
-                            </div>
-                            <br>
-                            <h2>Σεμινάρια</h2>
-                            <div class="list-group d-grid gap-3">
+                        </div>
+                        <br>
+                        <h2>Σεμινάρια</h2>
+                        <div class="list-group d-grid gap-3">
                             <?php for ($row = 25; $row < 29; $row++) {
                                     echo "
-                                    <button type=\"button\" class=\"btn btn-outline-success\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
+                                    <button type=\"button\" class=\"btn btn-outline-success myles\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
                                             .$les[$row][0]."
                                         </button>
                                     "; 
                                 }
                             ?>
-                            </div>
-                            <br>
-                            <h2>Κατεύθυνσης</h2>
-                            <div class="list-group d-grid gap-3">
+                        </div>
+                        <br>
+                        <h2>Κατεύθυνσης</h2>
+                        <div class="list-group d-grid gap-3">
                             <?php for ($row = 29; $row < 51; $row++) {
                                         echo "
-                                        <button type=\"button\" class=\"btn btn btn-outline-success\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
+                                        <button type=\"button\" class=\"btn btn btn-outline-success myles\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
                                             .$les[$row][0]."
                                         </button>
                                         "; 
                                 }
                             ?>
-                            </div>
-                            <br>
-                            <h2>Επιλογής</h2>
-                            <div class="list-group d-grid gap-3">
+                        </div>
+                        <br>
+                        <h2>Επιλογής</h2>
+                        <div class="list-group d-grid gap-3">
                             <?php for ($row = 51; $row < 56; $row++) {
                                         echo "
-                                        <button type=\"button\" class=\"btn btn btn-outline-success\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
+                                        <button type=\"button\" class=\"btn btn btn-outline-success myles\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
                                             .$les[$row][0]."
                                         </button>
                                         "; 
                                 }
                             ?>
-                            </div>
-                            <br>
-                            <h2>Ελεύθερα</h2>
-                            <div class="list-group d-grid gap-3">
+                        </div>
+                        <br>
+                        <h2>Ελεύθερα</h2>
+                        <div class="list-group d-grid gap-3">
                             <?php for ($row = 56; $row < 57; $row++) {
                                         echo "
-                                        <button type=\"button\" class=\"btn btn btn-outline-success\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
+                                        <button type=\"button\" class=\"btn btn btn-outline-success myles\" name=\"lessons\" value=".$les[$row][1].'_'.$les[$row][2].">"
                                             .$les[$row][0]."
                                         </button>
                                         "; 
                                 }
                             ?>
-                            </div>
-                            </br>
-                            <div class="mb-5 d-grid">
-                                <input type="button" class="btn btn-primary btn-lg px-4" name="button" id="button" onclick="result()"
-                                    value="Δες πόσο κοντά είσαι">
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        </br>
+                        <div class="mb-5 d-grid">
+                            <input type="button" class="btn btn-primary btn-lg px-4" name="button" id="button"
+                                onclick="result()" value="Δες πόσο κοντά είσαι">
+                        </div>
+                    </form>
                 </div>
-            </main>
-            <div id="element-to-print">
-        
-            <div>
+            </div>
+        </main>
+        <div id="element-to-print">
+            <div id="result">
+
+            </div>
             <footer class="pt-5 my-5 text-muted border-top">
                 Created by the <a href="https://mydind.net/">mydind</a> team &middot; &copy; 2022
             </footer>
         </div>
-    
+    </div>
+
 
     <!-- 
         Εδώ ξεκινάνε τα αποτελέσματα
     -->
-    
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
         integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
@@ -224,27 +232,17 @@
     </script>
     <!-- jQuery v3.6.0 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Analytics -->
 
     <script>
+        $(document).ready(function () {
 
-        $(document).ready(function() {
-            
-            $('.btn-outline-success').click(function() {
-                $(this).removeClass("btn-outline-success");
-                $(this).addClass("btn-success");
+            $(".myles").click(function () {
+                $(this).toggleClass("btn-outline-success");
+                $(this).toggleClass("btn-success");
             });
-
-            $('.btn-success').click(function() {
-                $(this).removeClass("btn-success");
-                $(this).addClass("btn-outline-success");
-            });
-
         });
 
-    //$(document).ready(function() {
-        //$("#button").click(function () {
-        function result(){
+        function result() {
             var Ypoxrewtika = 0;
             var Kateuthinsis = 0;
             var Psifiakwn = 0;
@@ -254,7 +252,7 @@
             var All_ECTS = 0;
             var ypoloipa;
 
-            $.each($('.btn-success'), function() {
+            $.each($('.btn-success'), function () {
                 var res = $(this).val();
                 const myArray = res.split("_");
                 var type = myArray[0];
@@ -264,8 +262,7 @@
                     Να έχουν παρακολουθήσει επιτυχώς οποιαδήποτε 24 από τα παρακάτω 25 μαθήματα, τα
                     οποία στο νέο ΠΠΣ χαρακτηρίζονται ως μαθήματα κορμού
                 */
-                if (type == 'K') 
-                {
+                if (type == 'K') {
                     All_ECTS = All_ECTS + ECTS;
                     Ypoxrewtika++;
                 }
@@ -296,49 +293,39 @@
                 // Να έχουν παρακολουθήσει επιτυχώς μαθήματα ελεύθερης επιλογής που αντιστοιχούν σε 6 ECTS
                 else if (type == 'EE') {
                     All_ECTS = All_ECTS + ECTS;
-                    Elefthera_ECTS = Elefthera_ECTS + ECTS;
+                    Elefthera_ECTS++; // Αυτό να διορθωθεί στη γενιά 2022-2023 καθώς άλλαξαν από 4 σε 3 τα ECTS των ελέυθερων
                 }
                 /*
                 Μαθήματα επιλογής που έχουν χαρακτηριστεί στο νέο ΠΠΣ ως ΕΑ ή ΕΑΒ. Για όσους φοιτητές
                 έχουν περάσει το μάθημα Άλγεβρα και Εφαρμογές, του προηγούμενου ΠΠΣ, αυτό προσμετράται
                 στα μαθήματα επιλογής ΕΑΒ.
                 */
-                else if (type == 'EA' || type == 'EB' || type == 'EAB') 
-                {
+                else if (type == 'EA' || type == 'EB' || type == 'EAB') {
                     All_ECTS = All_ECTS + ECTS;
-                    if (type == 'EA' || type == 'EB') {
-                        if (type == 'EA') 
-                        {
-                            Psifiakwn++;
-                        } 
-                        else if (type == 'EB') 
-                        {
-                            Dioikisis++;
-                        } 
-                        else if (type == 'EAB') 
-                        {
-                            Psifiakwn++;
-                            Dioikisis++;
-                        }
+                    if (type == 'EA') {
+                        Psifiakwn++;
+                    } else if (type == 'EB') {
+                        Dioikisis++;
+                    } else if (type == 'EAB') {
+                        Psifiakwn++;
+                        Dioikisis++;
                     }
-                } 
-                else if (type == 'arxitektoniki') 
-                {
+                } else if (type == 'arxitektoniki') {
                     All_ECTS = All_ECTS + ECTS;
                     Ypoxrewtika++;
                     Psifiakwn++;
                 }
-                
-                
-                if((240-All_ECTS)%4 == 0)
-                {
-                    ypoloipa = (240-All_ECTS)/4;
-                }
-                else
-                {
-                    ypoloipa = (240-All_ECTS)/4 + 1;
-                }
-            }); 
+                ypoloipa = (240 - All_ECTS) / 4;
+            });
+
+            if (All_ECTS != 240) 
+            {
+                ypoloipa = (240 - All_ECTS) / 4;
+            } 
+            else 
+            {
+                ypoloipa = 60;
+            }
 
             var myresult = `
             <div class="container mt-3">
@@ -368,22 +355,22 @@
                 <div class="media border p-3">
                     <img src="les.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
-                    <h4>Ελεύθερα μαθήματα: <small><i>${Elefthera_ECTS} ECTS.</i></small></h4>
-                    <h3>Σου λείπουν ακόμα <b>${8-Elefthera_ECTS}</b> ECTS, δηλαδή <u>${(8-Elefthera_ECTS)/4} </u>ελεύθερα μαθήματα.</h3>      
+                    <h4>Ελεύθερα μαθήματα: <small><i>${Elefthera_ECTS}.</i></small></h4>
+                    <h3>Σου λείπουν ακόμα <b>${2-Elefthera_ECTS}</b> ελεύθερα μαθήματα.</h3>      
                     </div>
                 </div>
                 <br>
                 <h2>Κατεύθυνση</h2>
                 <p>Η βεβαίωση παρακολούθησης κατεύθυνσης είναι προαιρετική.</p>
                 <div class="media border p-3">
-                    <img src="les.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <img src="or.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
                     <h4>Μαθήματα Συστημάτων: <small><i>${Psifiakwn}.</i></small></h4>
                     <h3>Αν θες να λάβεις βεβαίωση παρακολούθησης <b>κατεύθυνσης Συστημάτων</b> χρειάζεσαι <b>${12-Psifiakwn}</b> μαθήματα ΥΑ ή ΕΑ ή ΕΑΒ ακόμα.</h3>      
                     </div>
                 </div>
                 <div class="media border p-3">
-                    <img src="les.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                    <img src="or.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
                     <div class="media-body">
                     <h4>Μαθήματα Διοίκησης: <small><i>${Dioikisis}.</i></small></h4>
                     <h3>Αν θες να λάβεις βεβαίωση παρακολούθησης <b>κατεύθυνσης Διοίκησης</b> χρειάζεσαι <b>${11-Dioikisis}</b> μαθήματα ΥΒ ή ΕΒ ή ΕΑΒ ακόμα.</h3>      
@@ -392,22 +379,55 @@
 
                 <br>
                 <h2>Πτυχίο</h2>
-                <p>Είσαι <b>${ypoloipa}</b> μαθήματα των 4 ECTS μακριά από το πτυχίο.</p>
+                
+                <h4>Αν επιλέξεις:</h4>
+                <ol class="list-group">
+                    <li class="list-group-item">Εκπόνηση Πτυχιακής Εργασίας μόνο
+                        <ul>
+                            <li>Είσαι <b>${Math.ceil(ypoloipa-1)}</b> μαθήματα των 4 ECTS μακριά από το πτυχίο.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">Εκπόνηση Πρακτικής Άσκησης μόνο
+                        <ul>
+                            <li>Είσαι <b>${Math.ceil(ypoloipa-2)}</b> μαθήματα των 4 ECTS μακριά από το πτυχίο.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">Εκπόνηση Πτυχιακής Εργασίας Ι (4 ECTS) και Πρακτικής Άσκησης
+                        <ul>
+                            <li>Είσαι <b>${Math.ceil(ypoloipa-3)}</b> μαθήματα των 4 ECTS μακριά από το πτυχίο.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">Εκπόνηση Πτυχιακής Εργασίας Ι & ΙΙ (8 ECTS) και Πρακτικής Άσκησης
+                        <ul>
+                            <li>Είσαι <b>${Math.ceil(ypoloipa-4)}</b> μαθήματα των 4 ECTS μακριά από το πτυχίο.</li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
-
-            <!-- Κουμπί για να κατεβάσουν την αναφορά σε pdf 
-                <div class="mb-5">
-                    <a onclick="html2pdf().set(opt).from(element).save()" class="btn btn-primary btn-lg px-4">Σώσε με ως
-                        PDF</a>
-                </div>
+            <!-- Στη δεύτερη έκδοση
+            <div class="mb-5">
+                <a onclick="html2pdf().set(opt).from(element).save()" class="btn btn-primary btn-lg px-4">Σώσε με ως
+                    PDF</a>
+            </div>
             -->
-            <footer class="pt-5 my-5 text-muted border-top">
-                Created by the <a href="https://mydind.net/">mydind</a> team &middot; &copy; 2022
-            </footer>
             `;
-            document.getElementById("element-to-print").innerHTML = myresult;
+            document.getElementById("result").innerHTML = myresult;
+            //var ajax = new XMLHttpRequest;
+            //ajax.open("POST", "results.php", true);
+            //ajax.send(myresult);
         }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMB7Z61RME"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMB7Z61RME');
     </script>
 </body>
 
