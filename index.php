@@ -105,7 +105,6 @@
                 Παρόλα αυτά εμείς θα υπολογίσουμε τα πάντα <u>βάση των μεταβατικών διατάξεων</u>.
             </p>
 
-            <!-- https://html.form.guide/php-form/php-form-checkbox/ -->
             <div class="row justify-content-md-center">
 
                 <div class="col-md-6">
